@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@color/colorWhite">
+
+
+        <TextView
+            android:id="@+id/foodname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Food Name"
+            android:textAlignment="inherit"
+            android:textColor="@color/colorOrange"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/foodquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foodname"
+            android:layout_margin="5dp"
+            android:text="Food Quantity"
+            android:textAlignment="inherit"
+            android:textColor="@color/colorOrange"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/foodp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foodquantity"
+            android:layout_margin="5dp"
+            android:text="Food Price"
+            android:textAlignment="inherit"
+            android:textColor="@color/colorOrange"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/firstdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foodp"
+            android:layout_margin="5dp"
+            android:text="Date"
+            android:textAlignment="inherit"
+            android:textColor="@color/colorOrange"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/firsttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstdate"
+            android:layout_margin="5dp"
+            android:text="Time"
+            android:textAlignment="inherit"
+            android:textColor="@color/colorOrange"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firsttime"
+            android:layout_margin="5dp"
+            android:text="Username"
+            android:textAlignment="inherit"
+            android:textColor="@color/colorOrange"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/ownerLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/owner"
+            android:layout_margin="5dp"
+            android:text="Location"
+            android:textAlignment="inherit"
+            android:textColor="@color/colorOrange"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/ownerPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ownerLocation"
+            android:layout_margin="5dp"
+            android:text="Phone"
+            android:textAlignment="inherit"
+            android:textColor="@color/colorOrange"
+            android:textSize="14dp" />
+
+
+        <ImageView
+            android:id="@+id/confirmOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="98dp"
+            android:layout_marginRight="98dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_new_order" />
+
+        <ImageView
+            android:id="@+id/deleteOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_toLeftOf="@+id/confirmOrders"
+            android:src="@drawable/ic_delete" />
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/confirmOrders"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="269dp"
+            android:layout_marginLeft="269dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginRight="77dp"
+            android:text="Confirm "
+            android:textColor="@color/colorGreen"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deleteOrders"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="339dp"
+            android:layout_marginLeft="339dp"
+            android:layout_marginTop="29dp"
+            android:text="Delete "
+            android:textColor="@color/colorRed"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
